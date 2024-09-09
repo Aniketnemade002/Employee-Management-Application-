@@ -1,0 +1,63 @@
+.mdc-card{
+   margin: 2%;
+}
+
+button{
+   margin: 2px;
+}
+
+.nav{
+   background: #d4343c;
+   height: 100px;
+color:azure;
+
+
+} 
+.Header{
+   position: fixed;
+   top: 0%;
+}
+.appname{
+   
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: xx-large;
+}
+
+
+.container {
+   display: flex;
+   height: 63vh;
+ }
+ 
+ .left, .right {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .left {
+border-radius: 10px;
+border-color: #d4343c;
+   margin: 2px;
+   padding-right: 3px;
+   
+   background-color:     #d4343c;
+   ;
+ }
+ 
+ .right {
+   padding: 20px;
+ }
+ 
+ .company-image {
+   max-width: 100%;
+   height: auto;
+   object-fit: cover;
+ }
+ 
+ .example-card {
+   border: 2px solid #323030; /* Adjust the border weight and color as needed */
+   border-radius: 10px; /* Optional: for rounded corners */
+   box-shadow: 0 10px 20px rgba(3, 3, 3, 0.301); /* Optional: for card shadow */
+ }

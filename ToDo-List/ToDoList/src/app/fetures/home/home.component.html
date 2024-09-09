@@ -1,0 +1,73 @@
+<div><Header>
+  <i class="fa-solid fa-briefcase"></i>
+  <mat-toolbar class="nav">
+    <span style="width: 20px;"></span>
+    <span class="appname">Employee-Management Application</span>
+    <span style="margin-left: auto;"></span>
+    
+
+    <button mat-flat-button  (click)="DoLogin()"  *ngIf="!isLoginRoute()"  >
+      <span>Login</span>
+    </button>
+    
+    <span style="width: 10px;"></span>
+    
+  
+    <button mat-flat-button  (click)="DoRegister()" *ngIf="!isRegisterRoute()">
+      <span>Register</span>
+    </button>
+  </mat-toolbar>
+</Header></div>
+
+
+
+<div class="container" *ngIf="!isLoginRoute() && !isRegisterRoute()">
+  <div class="left">
+    <!-- Replace with your image URL -->
+    <img src=
+   "https://img.freepik.com/free-vector/corporate-portrait-office-workers-employees_74855-5471.jpg?t=st=1725717820~exp=1725721420~hmac=5a5e8e74de557ea72876d312a9c3055647823f405c87af1939e01d084ed7e10d&w=1480"
+    alt="Company Image" class="company-image">
+  </div>
+  
+  <div class="right">
+    <div class="typing-container" >
+      <div class="typewriter">
+       
+      </div>
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <mat-card-title>Employee Management System with Angular and NgRx</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          This project is an advanced Employee Management System that leverages Angular and NgRx for robust, scalable development. Key features include:
+      
+          <ul style="font-weight: 700;">
+            <li>State Management: Utilizes NgRx to maintain a clean, predictable state across the application.</li>
+            <li>Secure Authentication: Implements JWT (JSON Web Token) for secure user authentication and authorization.</li>
+            <li>Responsive Design: Built with Angular Material to ensure a responsive, user-friendly interface across all devices.</li>
+            <li>CRUD Operations: Supports seamless Create, Read, Update, and Delete operations for efficient employee management.</li>
+            <li>Modular Architecture: Follows best practices in modular development for maintainable and scalable code.</li>
+            <li>Side-Effect Management: Demonstrates effective use of `createEffect` in NgRx for handling asynchronous operations.</li>
+          </ul>
+      
+          <p>
+            This project is important because it not only showcases practical implementation of modern Angular features but also highlights the significance of state management, secure authentication, and responsive design in developing enterprise-level applications. It serves as a comprehensive example for best practices in Angular development, making it an essential reference for developers aiming to build scalable and maintainable applications.
+          </p>
+        </mat-card-content>
+        <mat-card-footer class="example-card-footer">
+          <!-- Footer content here -->
+        </mat-card-footer>
+      </mat-card>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div>
+  <router-outlet></router-outlet>
+</div>
+

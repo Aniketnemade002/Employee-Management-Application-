@@ -1,0 +1,79 @@
+
+<div class="login-page">
+  <div class="typing-container">
+  
+    <div class="typewriter">
+      <h1>Please Login !</h1>
+      
+    </div>
+    <mat-card class="example-card" appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>Employee Management System with Angular and NgRx</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+         This project is an Employee Management System built using Angular, featuring state management with NgRx. It includes secure authentication with JWT and a responsive user interface using Angular Material. The application allows for seamless CRUD operations, ensuring efficient employee management. It also demonstrates best practices in modular development, routing, and side-effect handling with createEffect in NgRx.
+       
+      </mat-card-content>
+      <mat-card-footer class="example-card-footer">
+       
+      </mat-card-footer>
+    </mat-card>
+    
+    
+  </div>
+  <div class="login-form-container">
+   <form [formGroup]="loginForm"  (ngSubmit)="loginUser()">
+   <p-card header="Account SingIn" >
+      <div class="login-form-container2">
+      <label for="Email">Email</label>
+    <div class="feild">
+ 
+   
+    <input type="email"
+    pInputText
+    formControlName="email"
+    class="w-full"
+    name="email"
+    placeholder="Type your email" />
+    </div>
+    <small
+        *ngIf="email.invalid && (email.dirty || email.touched)"
+        class="block p-error"
+      >
+        <div *ngIf="email.errors?.['required']">Email is required.</div>
+        <div *ngIf="email.errors?.['email']">Email should be valid</div>
+      </small>
+    <br>
+
+
+    <label for="password">Password</label>
+    <div class="feild">
+  
+   
+      <input type="password"
+      pInputText
+      formControlName="password"
+      class="w-full"
+      name="password"
+      placeholder="Type your password" />
+      <small
+      *ngIf="password.invalid && (password.dirty || password.touched)"
+      class="block p-error"
+    >
+      <div *ngIf="password.errors?.['required']">Password is required.</div>
+    </small>
+      </div>
+      <br>
+      <p-button   [disabled]="loginForm.invalid" label="Login" styleClass="w-full"  type="submit"  size="small"/>
+   </div>
+
+  </p-card>
+</form>
+ 
+  
+    
+  
+   
+</div>
+
+</div>

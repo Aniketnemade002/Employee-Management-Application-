@@ -1,0 +1,113 @@
+/* Assuming you are adding this to your styles.css or component-specific CSS file */
+
+
+ 
+.login-page {
+
+   display: flex;
+
+  height: 63vh;
+  background-color: #ffffff; /* Background color */
+
+ }
+ 
+ .typing-container {
+   margin-left: 10%;
+   margin-top: 8%;
+   max-width: 500px;
+   
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 20px;
+  
+
+   color: #d64f58;
+
+ 
+   
+ 
+ }
+ .typewriter h1 {
+   font-size: xx-large;
+
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-right: 2px solid white; /* Cursor effect */
+   overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* The typwriter cursor */
+   white-space: nowrap; /* Keeps the content on a single line */
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  
+   animation: 
+   typing 2s steps(20, end), blink-caret .1s
+ }
+ 
+ /* The typing effect */
+ @keyframes typing {
+   from { width: 0 }
+   to { width: 100% }
+ }
+ 
+ /* The typewriter cursor effect */
+ @keyframes blink-caret {
+   from, to { border-color: transparent }
+   50% { border-color: orange; }
+ }
+ 
+ 
+ .login-form-container {
+  min-height: auto;
+   
+   width: 30%;
+   margin-left: 10%;
+    /* Optional: Set a maximum width for the form */
+   background-color:  #d64f58;
+   margin-top: 0.3%;
+   padding: 7px;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  
+   z-index: 1;
+ }
+ 
+ .login-form-container2 {
+  justify-content: center;
+   align-items: center;
+   margin-left: 15%;
+   padding: auto;
+ 
+ }
+ 
+ 
+ .form-group {
+   margin-bottom: 15px;
+ }
+ 
+ .form-group label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
+ .form-group input {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ button {
+   padding: 10px 15px;
+   background-color: #d64f58;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+ }
+ 
+ button:hover {
+   background-color: #b43c4c;
+ }
+ 
