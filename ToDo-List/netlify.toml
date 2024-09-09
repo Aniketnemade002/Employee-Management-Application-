@@ -1,8 +1,0 @@
-[build]
-
-  publish = "dist/to-do-list"
-  command = "ng build"
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
