@@ -42,7 +42,9 @@ Deployment: Render (for JSON Server)
 Employee State Management: Handles loading, adding, updating, and deleting employees.
 Auth State Management: Manages user authentication with login and logout functionalities.
 Deployment
-JSON Server
+
+
+# JSON Server
 The JSON Server is deployed on Render. 
 
 
@@ -59,6 +61,8 @@ The JSON Server is deployed on Render.
 
 # Angular App
 The Angular application can be deployed to a hosting service like Netlify, Vercel, or any other static site hosting platform.
+
+URL: https://main--employee-management-application0.netlify.app/home
 
 
 
