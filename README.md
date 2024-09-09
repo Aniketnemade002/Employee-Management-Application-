@@ -1,5 +1,5 @@
 
- #Employee Management System 
+ # Employee Management System 
 
 
 
@@ -8,7 +8,7 @@
 This is an Employee Management System built using Angular, featuring CRUD (Create, Read, Update, Delete) operations. 
 The application uses NgRx for state management, and the backend is powered by a JSON Server deployed on Render.
 
-#Features
+# Features
 
 
 
@@ -26,7 +26,7 @@ Deployment: The JSON Server is deployed on Render, providing a live backend for 
 
 
 
-#Tech Stack
+# Tech Stack
 Frontend: Angular
 State Management: NgRx
 UI Components: Angular Material
@@ -57,7 +57,7 @@ The JSON Server is deployed on Render.
 
 
 
-#Angular App
+# Angular App
 The Angular application can be deployed to a hosting service like Netlify, Vercel, or any other static site hosting platform.
 
 
@@ -65,7 +65,7 @@ The Angular application can be deployed to a hosting service like Netlify, Verce
 # Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
 
-#License
+# License
 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -73,7 +73,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-#Contact
+# Contact
 For any inquiries or issues, please contact:
 
 
