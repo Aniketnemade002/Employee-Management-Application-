@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "ToDo-List/dist/to-do-list",
+            "outputPath": "dist/to-do-list",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
