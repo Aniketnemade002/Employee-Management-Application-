@@ -52,7 +52,7 @@ The JSON Server is deployed on Render.
 
 
 #You can access it at the following URL:
- https://auth-api-zans.onrender.com
+[ https://auth-api-zans.onrender.com](https://auth-api-zans.onrender.com/)
 
 
 
