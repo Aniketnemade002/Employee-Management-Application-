@@ -7,10 +7,10 @@ import { login, register } from "../../fetures/State-Management/Employee.actions
   providedIn: 'root'
 })
 export class HttpService{
-  //  private BASE_URL = 'https://auth-api-zans.onrender.com/auth/';
+   private BASE_URL = 'https://auth-api-zans.onrender.com/';
 
 
-   private BASE_URL = 'http://localhost:8000/';
+  //  private BASE_URL = 'http://localhost:8000/';
    
 
    private JWT = 'JWT';
