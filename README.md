@@ -64,6 +64,23 @@ The Angular application can be deployed to a hosting service like Netlify, Verce
 
 URL: https://main--employee-management-application0.netlify.app/home
 
+# Outputs
+![image](https://github.com/user-attachments/assets/179ad52b-d76e-4692-9c94-e65b2ee65d9d)
+#
+![image](https://github.com/user-attachments/assets/159628c4-317b-478f-afac-9c0bb2fd8047)
+
+#
+![image](https://github.com/user-attachments/assets/9f69c5a4-34ae-4f58-bae5-a584b4c86a3b)
+
+#
+
+![image](https://github.com/user-attachments/assets/d923ddf4-ecf3-414f-ae30-66efc6a11b57)
+#
+![image](https://github.com/user-attachments/assets/769465f7-5dc8-4695-9c51-36ff1b8cbde1)
+
+
+
+
 
 
 # Contributing
