@@ -1,4 +1,7 @@
+[build]
 
+  publish = "dist/package.json"
+  command = "ng build"
 [[redirects]]
   from = "/*"
   to = "/index.html"
