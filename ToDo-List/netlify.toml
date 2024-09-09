@@ -1,5 +1,5 @@
 [build]
-  base = "ToDo-List"
+
   publish = "ToDo-List/dist/package.json"
   command = "ng build"
 [[redirects]]
